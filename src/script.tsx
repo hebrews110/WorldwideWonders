@@ -249,7 +249,7 @@ window.onload = function () {
                 }, 2000);
             }
         }, [ right ]);
-        const text = right ? "That's right!" : (hasBeenWrong ? 'Nope.' : 'Which of these landmarks belongs to this country?');
+        const text = right ? "That's right!" : (hasBeenWrong ? 'Nope.' : 'Which of these landmarks belongs to this area?');
         const color = right ? 'green' : (hasBeenWrong ? 'red' : 'black');
         return <>
             <div className="landmark-question-header">
